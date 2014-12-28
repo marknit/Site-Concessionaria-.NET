@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NewCarMedia.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>CMedia</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/site.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/bootstrap-responsive.css"/>
+    <script type="text/javascript" src="modal.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+</head>
+
+<header id="cabecalho">
+        <div id="menu">
+         <div id="topo">
+           
+         </div>
+            <ul >
+                <li ><a href="">Home</a></li>
+                <li ><a href="">A Empresa</a></li>
+                <li ><a href="">Carros</a></li>
+                <li ><a href="">Peças</a></li>
+                <li ><a href="">Contato</a></li>
+                <li ><a href="">Financiamento</a></li>
+               
+    <!-- Início Compo de Busca -->
+    <form action="" class="form-search">
+        <div class="input-append">
+		    <input type="text" class="input-medium search-query" placeholder="buscar" >
+		    <buttom class="btn btn-success"><i class="icon-search icon-white "></i> Busca</buttom>
+	    </div>	
+      </form>
+    <!-- Fim Campo de Busca-->
+
+<!-- Início Modal Login -->
+<div id="login">
+     <buttom <a href="#myModal" role="button" class="btn btn-primary " data-toggle="modal"><i class="icon-user icon-white "></i> Login</a></buttom>
+
+     <!-- Modal -->
+     <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+             <h3 id="myModalLabel">Faça seu Login</h3>
+         </div>
+         <!-- Corpo do Modal Login -->
+         <section class="modal-body">
+             <form action="" class="form-horizontal">
+                 <div class="control-group input-prepend">
+                     <label for="" class="control-label">Email</label>
+                     <div class="controls">
+                         <span class="add-on"><i class="icon-envelope"></i></span>
+                         <input type="email" id="inputEmail" required/>
+                     </div>
+                 </div>
+                 <div class="control-group input-prepend">
+                     <label for="" class="control-label">Senha</label>
+                     <div class="controls">
+                          <span class="add-on"><i class="icon-lock"></i></span>
+                         <input type="password" id="inputPassword"/>
+                     </div>
+                 </div>
+             </form>
+         </section>
+         <div class="modal-footer">
+             <button class="btn" data-dismiss="modal" aria-hidden="true">Fechar</button>
+             <button class="btn btn-primary">Entrar</button>
+         </div>
+     </div>
+ </div>
+ <!-- Fim Modal Login -->
+      </ul>
+
+        </div>
+            
+      <!-- Início carousel -->
+        <div id="slider" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="active item">
+                    <img src="img\fisk.jpg" alt=""/>
+                </div>
+                <div class="carousel-caption">
+                    <h4>Nós temos a Solução</h4>
+                    <p>para seu negócio!</p>
+                </div>
+            </div>
+
+            <!-- Navegador do carousel -->
+            <a class="carousel-control left" href="#slider" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#slider" data-slide="next">&rsaquo;</a>
+        </div>
+    <!-- Fim carousel --> 
+</header>
+
+
+<body id="corpo-principal">  
+  <form id="form1" runat="server">
+   
+      <div id="content">
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+          </asp:ContentPlaceHolder>
+
+      </div>
+        
+       
+
+  </form>
+    
+ <footer>
+    <div id="rodape">
+        <p>Site Desenvolvido por Mark - With Bootstrap, C#, ASP.NET 4.5 and Visual Studio 2013 - Ano 2014</p>
+    </div>
+ </footer>
+
+ 
+
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script type="text/javascript" src="js/bootstrap.js"</script>
+   <script src="js/bootstrap.js"></script>
+</body>
+</html>

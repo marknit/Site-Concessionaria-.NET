@@ -1,0 +1,6 @@
+c:\users\mark\documents\visual studio 2013\Projects\NewCarMedia\NewCarMedia\bin\NewCarMedia.dll.config
+c:\users\mark\documents\visual studio 2013\Projects\NewCarMedia\NewCarMedia\bin\NewCarMedia.dll
+c:\users\mark\documents\visual studio 2013\Projects\NewCarMedia\NewCarMedia\bin\NewCarMedia.pdb
+c:\users\mark\documents\visual studio 2013\Projects\NewCarMedia\NewCarMedia\obj\Debug\NewCarMedia.csprojResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2013\Projects\NewCarMedia\NewCarMedia\obj\Debug\NewCarMedia.dll
+c:\users\mark\documents\visual studio 2013\Projects\NewCarMedia\NewCarMedia\obj\Debug\NewCarMedia.pdb
