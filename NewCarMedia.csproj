@@ -89,7 +89,6 @@
     </Compile>
     <Compile Include="Pecas.aspx.cs">
       <DependentUpon>Pecas.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pecas.aspx.designer.cs">
       <DependentUpon>Pecas.aspx</DependentUpon>
