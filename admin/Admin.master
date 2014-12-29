@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="NewCarMedia.admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Administrativa</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../css/site.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/bootstrap.css"/>
+	<link rel="stylesheet" href="../css/bootstrap-responsive.css"/>
+   <!-- <script type="text/javascript" src="modal.js"></script> -->
+   <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+</head>
+
+<header id="cabecalho">
+        <div id="menu">
+         
+            <ul >
+                <li ><a href="Carros.aspx">Carros</a></li>
+                <li ><a href="Pecas.aspx">Pecas</a></li>
+                <li ><a href="Taxa.aspx">Financiamento</a></li>
+                <li ><a href="Default.aspx">Páginas</a></li>
+                <li ><a href="Contato.aspx">Contato</a></li>
+                <li ><a href="Pecas.aspx">Sair</a></li>
+         </ul>
+
+        </div>
+      
+</header>
+
+
+<body id="corpo-principal">  
+      <form id="form1" runat="server">
+          <div id="content">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              </asp:ContentPlaceHolder>
+          </div>
+      </form>
+    
+     <footer>
+        <div id="rodape">
+            <p>Site Desenvolvido por Mark - With Bootstrap, C#, ASP.NET 4.5 and Visual Studio 2013 - Ano 2014</p>
+        </div>
+     </footer>
+
+  <!-- <script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script type="text/javascript" src="js/bootstrap.js"</script>
+   <script src="js/bootstrap.js"></script> -->
+</body>
+</html>
+

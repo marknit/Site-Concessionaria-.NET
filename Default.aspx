@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NewCarMedia.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<style type="text/css">
+    <style type="text/css">
         .auto-style1 {
             width: 111%;
         }
