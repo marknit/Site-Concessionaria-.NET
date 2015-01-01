@@ -40,7 +40,7 @@
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="btnLogar" runat="server" Text="Logar" />
+                <asp:Button runat="server" Text="Logar" />
             </td>
         </tr>
     </table>

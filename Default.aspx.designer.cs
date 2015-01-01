@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NewCarMedia.admin {
+namespace NewCarMedia {
     
     
     public partial class Default {
@@ -47,14 +47,5 @@ namespace NewCarMedia.admin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox dfsd;
-        
-        /// <summary>
-        /// btnLogar control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogar;
     }
 }

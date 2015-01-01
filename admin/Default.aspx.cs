@@ -14,35 +14,35 @@ namespace NewCarMedia.admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-        }    
-        protected void btnLogar_Click(object sender, EventArgs e)
-        {
-             string strCon = ConfigurationManager.ConnectionStrings["CARMEDIAConnectionString"].ConnectionString;
+            string strCon = ConfigurationManager.ConnectionStrings["CARMEDIAConnectionString"].ConnectionString;
             string SQL = "Select * from usuarios WHERE login = @login and senha = @senha";
-            
+
 
             using (SqlConnection con = new SqlConnection(strCon))
             {
                 using (SqlCommand cmd = new SqlCommand(SQL, con))
-                 {
+                {
                     con.Open();
                     if (con.State == System.Data.ConnectionState.Open)
                     {
-                        cmd.Parameters.AddWithValue("@login", txtLogin);
-                        cmd.Parameters.AddWithValue("@senha", txtSenha);
+                        cmd.Parameters.AddWithValue("@login", txtLogin.Text);
+                        cmd.Parameters.AddWithValue("@senha", txtSenha.Text);
 
                         SqlDataReader dr = cmd.ExecuteReader();
+
                         if (dr.Read())
                         {
                             FormsAuthentication.RedirectFromLoginPage(dr["nome"].ToString(), false);
-                           
-
                         }
+
+                        else
+                        {
+                            lblErro.Text = "Usuário ou senha Inválidos";
+                        }
+                        
                     }
-               }
+                }
             }
         }
-        }
-
-    
+    } 
 }

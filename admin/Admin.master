@@ -41,7 +41,6 @@
       <form id="form1" runat="server">
           <div id="content">
               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CARMEDIAConnectionString %>" SelectCommand="SELECT [NOME] FROM [USUARIOS]"></asp:SqlDataSource>
                   Seja bem vindo:
                   <asp:LoginName ID="LoginName1" runat="server" />
               </asp:ContentPlaceHolder>
