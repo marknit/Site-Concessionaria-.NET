@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin\Default.aspx" />
+    <Content Include="admin\Taxa.aspx" />
     <Content Include="Site.master" />
     <Content Include="admin\Admin.master" />
     <None Include="Web.Debug.config">
@@ -88,6 +89,13 @@
     </Compile>
     <Compile Include="admin\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Taxa.aspx.cs">
+      <DependentUpon>Taxa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Taxa.aspx.designer.cs">
+      <DependentUpon>Taxa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

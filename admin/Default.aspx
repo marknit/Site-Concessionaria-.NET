@@ -13,7 +13,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" runat="server" contentplaceholderid="ContentPlaceHolder1">
-    <br />
+    correto<br />
     <br />
     <br />
   
@@ -23,18 +23,18 @@
         </tr>
         <tr>
             <td>
-                <asp:Label ID="Label1" runat="server" Text="Senha:"></asp:Label>
+                <asp:Label ID="lblLogin" runat="server" Text="Login:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox1" runat="server" TextMode="Password" Width="248px"></asp:TextBox>
+                <asp:TextBox ID="txtLogin" runat="server" Width="248px"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>
-                <asp:Label ID="Label2" runat="server" Text="Login:"></asp:Label>
+                <asp:Label ID="lblSenha" runat="server" Text="Senha:"></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="txtLogin" runat="server" Width="248px"></asp:TextBox>
+                <asp:TextBox ID="txtSenha" runat="server" Width="248px" TextMode="Password"></asp:TextBox>
             </td>
         </tr>
         <tr>

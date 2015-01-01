@@ -7,36 +7,54 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NewCarMedia {
+namespace NewCarMedia.admin {
     
     
     public partial class Default {
         
         /// <summary>
-        /// lblNomeCarro control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNomeCarro;
+        protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// dsCarros control.
+        /// fzdgv control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource dsCarros;
+        protected global::System.Web.UI.WebControls.TextBox fzdgv;
         
         /// <summary>
-        /// DataList1 control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DataList DataList1;
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// dfsd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox dfsd;
+        
+        /// <summary>
+        /// btnLogar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLogar;
     }
 }
