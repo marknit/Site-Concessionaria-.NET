@@ -14,10 +14,21 @@
    <!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet"/>
+    <style type="text/css">
+        .auto-style2 {
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <header id="cabecalho">
     <div id="topo">
+           
+        &nbsp;&nbsp; <span class="auto-style2">Seja bem vindo:
+                  <b>
+                  <asp:LoginName ID="LoginName1" runat="server" />
+              </b></span>
            
     </div>
         <div id="menu">
@@ -28,7 +39,7 @@
                 <li ><a href="Taxa.aspx">Financiamento</a></li>
                 <li ><a href="Default.aspx">Páginas</a></li>
                 <li ><a href="Contato.aspx">Contato</a></li>
-                <li ><a href="Pecas.aspx">Sair</a></li>
+                <li ><a href="Sair.aspx">Sair</a></li>
          </ul>
 
         </div>
@@ -41,8 +52,6 @@
       <form id="form1" runat="server">
           <div id="content">
               <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                  Seja bem vindo:
-                  <asp:LoginName ID="LoginName1" runat="server" />
               </asp:ContentPlaceHolder>
           </div>
       </form>

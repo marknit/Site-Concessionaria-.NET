@@ -10,25 +10,7 @@
 namespace NewCarMedia.admin {
     
     
-    public partial class Admin {
-        
-        /// <summary>
-        /// head control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
-        
-        /// <summary>
-        /// LoginName1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LoginName LoginName1;
+    public partial class Sair {
         
         /// <summary>
         /// form1 control.
@@ -40,12 +22,12 @@ namespace NewCarMedia.admin {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// LoginStatus1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.LoginStatus LoginStatus1;
     }
 }

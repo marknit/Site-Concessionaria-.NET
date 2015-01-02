@@ -57,7 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin\Carros.aspx" />
     <Content Include="admin\Default.aspx" />
+    <Content Include="admin\Sair.aspx" />
     <Content Include="admin\Taxa.aspx" />
     <Content Include="Site.master" />
     <Content Include="admin\Admin.master" />
@@ -83,12 +85,26 @@
     <Compile Include="admin\Admin.master.designer.cs">
       <DependentUpon>Admin.master</DependentUpon>
     </Compile>
+    <Compile Include="admin\Carros.aspx.cs">
+      <DependentUpon>Carros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Carros.aspx.designer.cs">
+      <DependentUpon>Carros.aspx</DependentUpon>
+    </Compile>
     <Compile Include="admin\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="admin\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Sair.aspx.cs">
+      <DependentUpon>Sair.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Sair.aspx.designer.cs">
+      <DependentUpon>Sair.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\Taxa.aspx.cs">
       <DependentUpon>Taxa.aspx</DependentUpon>
