@@ -49,16 +49,16 @@
     <table class="auto-style1">
         <tr>
             <td class="auto-style3" colspan="2" dir="auto" style="background-color: #FF9900">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbs&nbs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Label ID="lblNomeCarro" runat="server" Text="lblNomeCarro" style="font-size: medium; font-weight: 700"></asp:Label>
             </td>
         </tr>
         <tr>
             <td class="auto-style12" rowspan="8"><strong>
-                <asp:Image ID="imgFoto" runat="server" Height="267px" Width="434px" ImageUrl='<%# Eval("foto1", "img/{0}") %>' />
+                <asp:Image ID="imgFoto" runat="server" Height="267px" Width="434px" />
                 </strong>
             </td>
-            <td class="auto-style6"><strong>Descrição:</strong></td>
+            <td class="auto-style6"><strong>Descrição:rong>>
         </tr>
         <tr>
             <td class="auto-style2"><span class="auto-style10">&nbsp;</span><asp:TextBox ID="txtDescricao" runat="server" Height="95px" TextMode="MultiLine" Width="675px" CssClass="auto-style10" ClientIDMode="AutoID"></asp:TextBox>
