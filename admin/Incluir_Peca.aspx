@@ -23,6 +23,14 @@
         .auto-style8 {
             height: 115px;
         }
+        .auto-style9 {
+            width: 376px;
+            text-align: right;
+            height: 22px;
+        }
+        .auto-style10 {
+            height: 22px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -34,6 +42,13 @@
             <td class="auto-style5">&nbsp;</td>
             <td>
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" style="color: #FF0000; font-weight: 700; font-family: Arial" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style5">Id</td>
+            <td>
+                <asp:TextBox ID="txtId" runat="server" Width="57px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtNome" CssClass="auto-style6" ErrorMessage="*Preencha o Id">*</asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
@@ -65,9 +80,22 @@
             </td>
         </tr>
         <tr>
+            <td class="auto-style9">Dt_Cadastro</td>
+            <td class="auto-style10">
+                <asp:TextBox ID="txtData" runat="server" Width="378px"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtNome" CssClass="auto-style6" ErrorMessage="*Preencha a data atual">*</asp:RequiredFieldValidator>
+            </td>
+        </tr>
+        <tr>
             <td class="auto-style4">&nbsp;</td>
             <td>
-                <asp:Button ID="brnCadastrar" runat="server" Text="Cadastrar" />
+                <asp:Button ID="brnCadastrar" runat="server" OnClick="brnCadastrar_Click" Text="Cadastrar" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4">&nbsp;</td>
+            <td>
+                <asp:Label ID="lblMsg" runat="server"></asp:Label>
             </td>
         </tr>
     </table>

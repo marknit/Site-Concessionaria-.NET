@@ -61,6 +61,7 @@
     <Content Include="admin\Default.aspx" />
     <Content Include="admin\ExcluirCarro.aspx" />
     <Content Include="admin\Incluir_Peca.aspx" />
+    <Content Include="admin\Pecas.aspx" />
     <Content Include="admin\Sair.aspx" />
     <Content Include="admin\Taxa.aspx" />
     <Content Include="Site.master" />
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="admin\Incluir_Peca.aspx.designer.cs">
       <DependentUpon>Incluir_Peca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Pecas.aspx.cs">
+      <DependentUpon>Pecas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Pecas.aspx.designer.cs">
+      <DependentUpon>Pecas.aspx</DependentUpon>
     </Compile>
     <Compile Include="admin\Sair.aspx.cs">
       <DependentUpon>Sair.aspx</DependentUpon>
